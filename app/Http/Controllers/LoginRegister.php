@@ -22,7 +22,6 @@ class LoginRegister extends Controller
 
 
 
-
 public function User_login(Request $request)
 {
     $request->validate([
@@ -52,17 +51,6 @@ public function User_login(Request $request)
         'email' => 'The provided credentials do not match our records.',
     ]);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
